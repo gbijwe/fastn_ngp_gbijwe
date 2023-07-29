@@ -1,0 +1,14 @@
+-- foo-2: This is title
+
+-- foo-2.inner:
+
+-- ftd.row:
+width: fill-container
+background.solid: yellow
+
+-- ftd.text: This is some inner text
+color: red
+
+-- end: ftd.row
+
+-- end: foo-2.inner

@@ -1,0 +1,79 @@
+-- import: fastn.com/assets
+
+-- ftd.image-src my-images:
+light: https://avatars.githubusercontent.com/u/120776034?s=400&v=4
+dark: https://avatars.githubusercontent.com/u/120776034?s=400&v=4
+
+
+;; -- ftd.row: 
+;; padding-horizontal.px: 20
+;; spacing: 
+;; width: fill-container
+;; padding-vertical.px: 20
+
+;; -- ftd.text: GAURAV BIJWE
+;; role: $inherited.types.heading-large
+
+;; -- end: ftd.row 
+
+;; Profile photo
+
+-- ftd.row: 
+padding-horizontal.px: 30
+padding-vertical.px: 30
+spacing: space-between
+width: fill-container
+-- ftd.column: 
+-- ftd.text: GAURAV BIJWE
+role: $inherited.types.heading-large
+-- ftd.text: -Small milao, large banao!
+-- end: ftd.column
+
+-- ftd.column:
+-- ftd.image:
+src: $my-images
+border-color: black
+border-width.px: 10
+border-radius.px: 360  
+width.fixed.px: 150
+height.fixed.px: 150
+-- end: ftd.column
+-- end: ftd.row
+
+;; -- ftd.ui list child-components: 
+;; -- ftd.text: About me
+;; -- ftd.text: THIS IS ME???
+;; -- end: child-components
+
+;; -- ftd.column: 
+;; color: $inherited.colors.text
+;; children: $child-components
+;; --end: ftd.row
+
+-- ftd.ui list child-components:
+
+-- ftd.text: About me: 
+role: $inherited.types.heading-medium
+-- ftd.text: I am student of 1st year of Computer Science & Engineering at GCOE, Nagpur. I am looking to learn about new technologies and have a fun time experimenting and networking with people. I love going out on my bike, trekking and capturing random moments in my camera. 
+
+-- ftd.text: Experience
+role: $inherited.types.heading-medium
+-- ftd.text: hsdfhsflks
+-- end: child-components
+
+-- ftd.row: 
+-- ftd.column:
+padding-horizontal.px: 30
+padding-vertical.px: 50
+color: $inherited.colors.text
+children: $child-components
+width.fixed.px: 750
+-- end: ftd.column
+-- ftd.column: 
+padding-horizontal.px: 30
+padding-vertical.px: 50
+color: $inherited.colors.text
+-- ftd.text: Socials!
+role: $inherited.types.heading-medium
+-- end: ftd.column
+-- end: ftd.row
