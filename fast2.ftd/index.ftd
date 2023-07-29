@@ -77,7 +77,16 @@ width.fixed.px: 750
 padding-horizontal.px: 30
 padding-vertical.px: 50
 color: $inherited.colors.text
+width.fixed.px: 750
 -- ftd.text: **Socials!**
 role: $inherited.types.heading-medium
+-- ftd.column: 
+width: fill-container
+height.fixed.px: 75
+spacing: space-between
+role: $inherited.types.heading-small
+-- ftd.text: [LinkedIn](https://www.linkedin.com/in/gaurav-bijwe-a37a0924b/)
+-- ftd.text: [Instagram](https://www.instagram.com/timetheletter/)
+-- end: ftd.column
 -- end: ftd.column
 -- end: ftd.row
