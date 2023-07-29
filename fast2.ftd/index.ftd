@@ -24,9 +24,10 @@ padding-vertical.px: 30
 spacing: space-between
 width: fill-container
 -- ftd.column: 
--- ftd.text: GAURAV BIJWE
+-- ftd.text: **GAURAV BIJWE**
 role: $inherited.types.heading-large
 -- ftd.text: -Small milao, large banao!
+-- ftd.text: **Just kidding, don't drink! Just drive.**
 -- end: ftd.column
 
 -- ftd.column:
@@ -52,13 +53,16 @@ height.fixed.px: 150
 
 -- ftd.ui list child-components:
 
--- ftd.text: About me: 
+-- ftd.text: **About me:** 
 role: $inherited.types.heading-medium
 -- ftd.text: I am student of 1st year of Computer Science & Engineering at GCOE, Nagpur. I am looking to learn about new technologies and have a fun time experimenting and networking with people. I love going out on my bike, trekking and capturing random moments in my camera. 
 
--- ftd.text: Experience
+-- ftd.text: **Experience**
 role: $inherited.types.heading-medium
--- ftd.text: hsdfhsflks
+-- ftd.text: - Fluent in flutter 
+-- ftd.text: - Expert in StackOverflow :-)
+
+
 -- end: child-components
 
 -- ftd.row: 
@@ -73,7 +77,7 @@ width.fixed.px: 750
 padding-horizontal.px: 30
 padding-vertical.px: 50
 color: $inherited.colors.text
--- ftd.text: Socials!
+-- ftd.text: **Socials!**
 role: $inherited.types.heading-medium
 -- end: ftd.column
 -- end: ftd.row
