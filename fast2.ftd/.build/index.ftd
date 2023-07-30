@@ -1,14 +1,92 @@
--- foo-2: This is title
+-- import: fastn.com/assets
 
--- foo-2.inner:
+-- ftd.image-src my-images:
+light: https://avatars.githubusercontent.com/u/120776034?s=400&v=4
+dark: https://avatars.githubusercontent.com/u/120776034?s=400&v=4
 
--- ftd.row:
+
+;; -- ftd.row: 
+;; padding-horizontal.px: 20
+;; spacing: 
+;; width: fill-container
+;; padding-vertical.px: 20
+
+;; -- ftd.text: GAURAV BIJWE
+;; role: $inherited.types.heading-large
+
+;; -- end: ftd.row 
+
+;; Profile photo
+
+-- ftd.row: 
+padding-horizontal.px: 30
+padding-vertical.px: 30
+spacing: space-between
 width: fill-container
-background.solid: yellow
+-- ftd.column: 
+-- ftd.text: **GAURAV BIJWE**
+role: $inherited.types.heading-large
+-- ftd.text: -Small milao, large banao!
+-- ftd.text: **Just kidding, don't drink! Just drive.**
+-- end: ftd.column
 
--- ftd.text: This is some inner text
-color: red
-
+-- ftd.column:
+-- ftd.image:
+src: $my-images
+border-color: black
+border-width.px: 10
+border-radius.px: 360  
+width.fixed.px: 150
+height.fixed.px: 150
+-- end: ftd.column
 -- end: ftd.row
 
--- end: foo-2.inner
+;; -- ftd.ui list child-components: 
+;; -- ftd.text: About me
+;; -- ftd.text: THIS IS ME???
+;; -- end: child-components
+
+;; -- ftd.column: 
+;; color: $inherited.colors.text
+;; children: $child-components
+;; --end: ftd.row
+
+-- ftd.ui list child-components:
+
+-- ftd.text: **About me:** 
+role: $inherited.types.heading-medium
+-- ftd.text: I am student of 1st year of Computer Science & Engineering at GCOE, Nagpur. I am looking to learn about new technologies and have a fun time experimenting and networking with people. I love going out on my bike, trekking and capturing random moments in my camera. 
+
+-- ftd.text: **Experience**
+role: $inherited.types.heading-medium
+-- ftd.text: - Fluent in flutter 
+-- ftd.text: - Expert in StackOverflow :-)
+
+
+-- end: child-components
+
+-- ftd.row: 
+-- ftd.column:
+padding-horizontal.px: 30
+padding-vertical.px: 50
+color: $inherited.colors.text
+children: $child-components
+width.fixed.px: 750
+-- end: ftd.column
+-- ftd.column: 
+padding-horizontal.px: 30
+padding-vertical.px: 50
+color: $inherited.colors.text
+width.fixed.px: 750
+-- ftd.text: **Socials!**
+role: $inherited.types.heading-medium
+-- ftd.column: 
+width: fill-container
+height.fixed.px: 75
+spacing: space-between
+role: $inherited.types.heading-small
+-- ftd.text: [LinkedIn](https://www.linkedin.com/in/gaurav-bijwe-a37a0924b/)
+-- ftd.text: [Instagram](https://www.instagram.com/timetheletter/)
+-- end: ftd.column
+-- end: ftd.column
+-- end: ftd.row
